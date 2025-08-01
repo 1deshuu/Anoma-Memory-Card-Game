@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anoma Memory Card Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Anoma Memory Card Game</h1>
+            <div class="game-info">
+                <div class="score">Moves: <span id="moves">0</span></div>
+                <div class="timer">Time: <span id="time">00:00</span></div>
+                <button id="reset-btn">Restart</button>
+            </div>
+        </header>
+        
+        <div class="game-board" id="game-board">
+            <!-- Kartlar JavaScript ile oluşturulacak -->
+        </div>
+        
+        <div class="win-message" id="win-message">
+            <div class="win-content">
+                <h2>Congratulations!</h2>
+                <p>You completed the game in <span id="final-moves">0</span> moves!</p>
+                <p>Time: <span id="final-time">00:00</span></p>
+                <button id="play-again-btn">Play Again</button>
+            </div>
+        </div>
+        
+        <div class="credit">made by deshuu</div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html> 
